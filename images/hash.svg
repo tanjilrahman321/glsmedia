@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="42px" height="42px" viewBox="0 0 42 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 51.3 (57544) - http://www.bohemiancoding.com/sketch -->
+    <title>phone_numbers</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="phone_numbers">
+            <path d="M6.14764728,6.14764728 C14.3445103,-2.04921576 27.6339788,-2.04921576 35.8301423,6.14764728 C44.0270053,14.3445103 44.0270053,27.6339788 35.8301423,35.8308419 C27.6339788,44.0277049 14.3445103,44.0277049 6.14764728,35.8308419 C-2.04921576,27.6339788 -2.04921576,14.3445103 6.14764728,6.14764728" id="Fill-10" fill="#FFF3DB"></path>
+            <g id="Group-5" transform="translate(10.161290, 10.161290)">
+                <polygon id="Fill-1" fill="#FDDB96" points="0 8.34272598 20.804618 8.34272598 20.804618 5.32956469 0 5.32956469"></polygon>
+                <polygon id="Fill-2" fill="#FDDB96" points="0 15.4768788 20.804618 15.4768788 20.804618 12.4625766 0 12.4625766"></polygon>
+                <polygon id="Fill-3" fill="#F7B83A" points="12.4622343 20.8049603 15.4765365 20.8049603 15.4765365 0.000342275042 12.4622343 0.000342275042"></polygon>
+                <polygon id="Fill-4" fill="#F7B83A" points="5.32808149 20.8049603 8.34124278 20.8049603 8.34124278 0.000342275042 5.32808149 0.000342275042"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@400;700&display=swap');
+
+/* font-family: 'Open Sans', sans-serif; */
+
+/* font-family: 'Kanit', sans-serif; */
+
+.container {
+    max-width: 75% !important;
+}
+
+.cc-container{
+    max-width: 85%;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+/*Header Start*/
+
+.logo {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #0353A4 !important;
+}
+
+.nav-bg {
+    background-color: #0353A405;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: 0 0 0 0;
+}
+
+header{
+    background-color: #1a1a2f;
+}
+
+
+header ul li {
+    margin-right: 20px;
+}
+
+header ul li:last-child {
+    margin-right: 0px;
+}
+
+.page {
+    font-family: 'Kanit', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff !important;
+    position: relative;
+}
+
+
+.page::after {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    top: 40px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.page::before {
+    position: absolute;
+    content: '';
+    width: 0px;
+    height: 2px;
+    background-color: #fff;
+    top: 0px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    transition: 0.3s;
+}
+
+.page:hover {
+    color: #60B0F4 !important;
+}
+
+.page:hover::after {
+    width: 70px;
+}
+
+.page:hover::before {
+    width: 70px;
+}
+
+
+.sing-up-btn {
+    padding: 1px 17px;
+    text-decoration: none;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    text-align: center;
+    color: #fff !important;
+    background-color: transparent;
+    border: 1.5px solid #60B0F4;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.sing-up-btn:hover {
+    background-color: #0353A4;
+    color: #fff !important;
+    box-shadow: 0px 0px 19px 6px #0353a45b;
+}
+
+.contact-sales-btn {
+    margin-left: 18px;
+    padding: 2px 20px;
+    text-decoration: none;
+    background-color: #0353A4;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    border: 1.5px solid #0353A4;
+    border-radius: 30px;
+    transition: 0.3s;
+}
+
+.contact-sales-btn:hover {
+    color: #fff;
+    box-shadow: 0px 0px 19px 6px #0353a45b;
+}
+
+
+
+/*Header End*/
+
+/* banner start  */
+.banner {
+    padding: 100px 0;
+    background-image: linear-gradient(to bottom, #1A1A2F, #1A1A2F,rgb(21 19 52),rgb(0 0 0 / 88%)),url(../images/banner.png);
+    background-color: #1a1a2f;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner-subtitle{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    color: #FFF;
+    font-size: 24px;
+    letter-spacing: 2px;
+}
+
+.banner-title {
+    margin-bottom: 25px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 35px;
+    color: #60B0F4;
+    line-height: 46px;
+}
+
+.banner-desc {
+    margin-bottom: 45px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    line-height: 32px;
+}
+
+.get-started-btn {
+    display: inline-block;
+    text-align: center;
+    padding: 9px 24px;
+    text-decoration: none;
+    background-color: #0063b6;
+    color: #fff !important;
+    border: 1.5px solid #0353A4;
+    border-radius: 50px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    transition: 0.3s;
+}
+
+.get-started-btn .btn-p-one{
+    font-size: 22px !important;
+}
+
+.get-started-btn:hover {
+    background-color: #0353A4;
+    color: #fff !important;
+    box-shadow: 0px 0px 19px 6px #0353a45b;
+}
+
+.banner-contact-sales {
+    padding: 8px 24px;
+}
+
+/* banner ends  */
+
+/* Our philosopy start  */
+.philosopy{
+    padding: 100px 0;
+}
+
+.philosopy-title{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    text-transform: uppercase;
+    color: #003559 !important;
+    letter-spacing: 1.5px;
+}
+
+.philosopy-number{
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    text-shadow: 2px 2px 5px #0353a4c9;
+    color: #0063B6 !important;
+}
+
+.schedule-call{
+    font-size: 34px;
+}
+
+.single-revenue-number{
+    background-color: #003559;
+    color: #fff;
+    padding: 15px 0px 15px 20px;
+    border-radius: 8px !important;
+    margin: 10px 0;
+}
+
+.single-revenue-number h3{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.single-revenue-number h4{
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    font-size: 46px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;   
+}
+
+.philosopy-desc{
+    padding-left: 20px;
+}
+
+.philosopy-desc p{
+    font-size: 18px;
+    font-weight: 500;
+    margin: 15px 0;
+}
+
+.philosopy-desc h5{
+    font-size: 20px;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #003559;
+    margin-bottom: 30px;
+}
+
+.offer-desc{
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.offer ul li{
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #003559;
+}
+
+/* Our philosopy end  */
+
+/* company start  */
+.company{
+    padding: 100px 0;
+}
+
+.company img{
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.company img:hover{
+    transform: scale(1.1);
+}
+
+/* company end  */
+
+/* Team section start  */
+
+.team-wrapper{
+    text-align: center;
+}
+
+.team-wrapper img{
+    border-radius: 50%;
+}
+
+.team-wrapper h2{
+    margin-top: 10px;
+    margin-bottom: 0;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* Team section end  */
+
+/* offer start  */
+.offer{
+    padding: 100px 0;
+    /* background-image: linear-gradient(to right, rgb(0 0 0 / 80%), rgb(32 15 15 / 80%),rgb(11 8 8 / 22%),rgb(58 20 20 / 80%)),url(../images/banner.jpg); */
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.offer i{
+    color: #FF1500;
+}
+
+/* offer end  */
+
+/* schedule-call-start  */
+
+.schedule-call-start{
+    padding: 100px 0;
+}
+
+.schedule-call-start ul li{
+    margin: 8px 0;
+}
+
+.schedule-call-start ul li i{
+    color: #0063B6;
+}
+
+.schedule-call-start img{
+    margin-bottom: 10px;
+    border: 5px solid #003559;
+    border-radius: 50%;
+}
+
+.schedule-call-start p{
+    font-size: 18px;
+    line-height: 30px;
+}
+
+/* schedule-call-end  */
+
+/* case study start  */
+.case-study{
+    padding: 100px 0;
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.free-case-study{
+    font-size: 24px;
+}
+
+.case-study p{
+    font-size: 22px;
+    letter-spacing: 1px;
+    line-height: 30px;
+}
+
+.case-study a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 700;
+    font-family: 'Kanit', sans-serif;
+    color: #fff;
+    display: inline-block;
+    background-color: #003559;
+    border-radius: 50px;
+    padding: 12px 16px;
+    transition: 0.5s;
+}
+
+.case-study a:hover{
+    margin-top: 10px;
+}
+
+/* case study end  */
+
+
+footer {
+    background-color: #ddd;
+    padding: 100px 0 80px 0;
+    border-bottom: 1px solid rgb(202, 202, 202);
+}
+
+footer a {
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+footer .logo {
+    text-transform: uppercase;
+}
+
+.footer-copy p {
+    color: #000;
+}
+
+.footer-copy li {
+    margin-left: 15px;
+}
+
+.footer-copy li:first-child {
+    margin-left: 0;
+}
+
+.footer-copy {
+    padding: 30px 0;
+}
+
+.footer-copy a {
+    display: inline-block;
+    text-decoration: none;
+    transition: 0.3s;
+    color: #000 !important;
+}
+
+.footer-copy a:hover {
+    color: #003559 !important;
+    transform: scale(1.5);
+}
+
+

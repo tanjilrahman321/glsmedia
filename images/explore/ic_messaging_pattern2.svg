@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="142px" height="126px" viewBox="0 0 142 126" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_messaging_pattern2</title>
+    <defs>
+        <path d="M141.776,0 L141.776,83.767 L140.606135,83.9843961 C101.942507,91.0240199 57.60507,84.71969 30.783,55.088 L30.783,55.088 L30.178392,54.232891 C14.5351956,32.0554379 4.86265823,14.1950127 0,0 L0,0 L141.776,0 Z" id="path-1"></path>
+        <linearGradient x1="150.13712%" y1="33.2535856%" x2="-27.0974883%" y2="44.8707224%" id="linearGradient-3">
+            <stop stop-color="#AFE8F9" offset="0%"></stop>
+            <stop stop-color="#AFE8F9" offset="100%"></stop>
+        </linearGradient>
+        <path d="M99.450845,0 L99.450845,110.022 L98.9617464,109.472886 C82.7390502,91.4700617 58.354875,85.13423 25.984845,88.028 L25.984845,88.028 L25.0069,88.1053657 C-6.88653983,90.294046 -1.40835503,56.61187 4.61084497,47.491 L4.61084497,47.491 L4.80503351,47.2121379 C11.5989527,37.9286186 56.345735,20.66981 70.392845,10.454 C73.958845,7.861 84.934845,3.706 99.450845,0" id="path-4"></path>
+        <linearGradient x1="4.54169198e-05%" y1="49.5520693%" x2="279.493086%" y2="49.5520693%" id="linearGradient-6">
+            <stop stop-color="#AFE8F9" offset="0%"></stop>
+            <stop stop-color="#AFE8F9" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="G2-Home-Page-Spring_v6" transform="translate(-759.000000, -2862.000000)">
+            <g id="ic_messaging_pattern2" transform="translate(759.199600, 2862.838454)">
+                <g id="Group-98" transform="translate(0.000000, -0.000000)">
+                    <g id="Group-297" transform="translate(0.000000, -0.000000)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Clip-296"></g>
+                        <path d="M0,0 C4.925,14.377 14.784,32.514 30.783,55.088 L30.783,55.088 C57.876,85.019 102.84,91.149 141.776,83.767 L141.776,83.767 L141.776,0 L0,0 Z" id="Fill-295" fill="url(#linearGradient-3)" opacity="0.25" mask="url(#mask-2)"></path>
+                    </g>
+                    <g id="Group-300" transform="translate(42.325155, 14.361000)">
+                        <mask id="mask-5" fill="white">
+                            <use xlink:href="#path-4"></use>
+                        </mask>
+                        <g id="Clip-299"></g>
+                        <path d="M70.392845,10.454 C56.203845,20.773 10.691845,38.278 4.61084497,47.491 L4.61084497,47.491 C-1.46915503,56.704 -6.99715503,90.977 25.984845,88.028 L25.984845,88.028 C58.681845,85.105 83.230845,91.599 99.450845,110.022 L99.450845,110.022 L99.450845,0 C84.934845,3.706 73.958845,7.861 70.392845,10.454" id="Fill-298" fill="url(#linearGradient-6)" opacity="0.25" mask="url(#mask-5)"></path>
+                    </g>
+                    <path d="M95.2633,37.0912 C95.2633,45.4592 88.4793,52.2422 80.1113,52.2422 C71.7423,52.2422 64.9593,45.4592 64.9593,37.0912 C64.9593,28.7232 71.7423,21.9392 80.1113,21.9392 C88.4793,21.9392 95.2633,28.7232 95.2633,37.0912 Z" id="Stroke-301" stroke="#3CD8FB" opacity="0.25"></path>
+                    <path d="M119.1608,65.9076 C119.1608,70.1366 115.7338,73.5626 111.5058,73.5626 C107.2778,73.5626 103.8498,70.1366 103.8498,65.9076 C103.8498,61.6796 107.2778,58.2526 111.5058,58.2526 C115.7338,58.2526 119.1608,61.6796 119.1608,65.9076 Z" id="Stroke-303" stroke="#3CD8FB" opacity="0.25"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

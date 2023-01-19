@@ -1,0 +1,202 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+    .page::after{
+        margin: 0 0;
+    }
+    .page::before{
+        margin: 0 0;
+    }
+
+    .top-head p {
+        line-height: 32px;
+    }
+    
+
+    .container {
+        max-width: 98% !important;
+    }
+
+    
+    .philosopy, .offer{
+        padding: 50px 0;
+    }
+    
+    .philosopy-title{
+        font-size: 20px;
+    }
+    
+    .philosopy-number{
+        font-size: 26px;
+        letter-spacing: 1.5px;
+    }
+
+    .company{
+        padding: 50px 0;
+    }
+
+    .company img{
+        margin: 15px 0;
+    }
+
+    .schedule-call-start{
+        padding: 50px 0;
+    }
+
+    .case-study{
+        padding: 50px 0;
+    }
+
+    .get-started-btn {
+        display: inline-block;
+        text-align: center;
+        padding: 6px 10px;
+        text-decoration: none;
+        background-color: #0063b6;
+        color: #fff !important;
+        border: 1.5px solid #0353A4;
+        border-radius: 50px;
+        font-weight: 500;
+        font-size: 16px;
+        transition: 0.3s;
+    }
+    
+    .banner-subtitle{
+        font-size: 22px;
+    }
+
+    .banner-title{
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    footer{
+        padding: 40px 0;
+    }
+
+
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+
+    .container {
+        max-width: 90% !important;
+    }
+
+    /* banner start  */
+
+    .banner {
+        text-align: center;
+        padding: 70px 0;
+    }
+
+    .banner-title {
+        font-size: 34px;
+        line-height: 48px;
+    }
+
+    .contact-sales-btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    /* banner end  */
+    .philosopy, .offer{
+        padding: 60px 0;
+    }
+    
+    .philosopy-title{
+        font-size: 26px;
+    }
+    
+    .philosopy-number{
+        font-size: 30px;
+        letter-spacing: 1.5px;
+    }
+
+    .company{
+        padding: 60px 0;
+    }
+
+    .company img{
+        margin: 15px 0;
+    }
+
+    .schedule-call-start{
+        padding: 60px 0;
+    }
+
+    .case-study{
+        padding: 60px 0;
+    }
+
+    footer{
+        padding: 50px 0;
+    }
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    .container {
+        max-width: 98% !important;
+    }
+
+    /* banner start  */
+
+    .banner {
+        padding: 80px 0;
+    }
+
+    .banner-title {
+        font-size: 32px;
+        line-height: 48px;
+    }
+
+    .contact-sales-btn {
+        margin-top: 10px;
+        margin-left: 0;
+    }
+
+    /* banner end  */
+
+    footer img{
+        width: 170px;
+    }
+
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    .cc-container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    
+
+    .container {
+        max-width: 90% !important;
+    }
+
+    /* banner start  */
+    .banner-title {
+        font-size: 36px;
+    }
+
+    /* banner end  */
+
+/* Price End  */
+
+}
+
+/*X large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {}
+
+/*XX Large devices (large desktops, 1400px and up)*/
+@media (min-width: 1400px) {}
